@@ -30,15 +30,6 @@
     <feature name="File">
         <param name="ios-package" value="CDVFile" />
     </feature>
-    <feature name="FileTransfer">
-        <param name="ios-package" value="CDVFileTransfer" />
-    </feature>
-    <feature name="Media">
-        <param name="ios-package" value="CDVSound" />
-    </feature>
-    <feature name="Capture">
-        <param name="ios-package" value="CDVCapture" />
-    </feature>
     <name>HelloWorld</name>
     <description>
         Hello World sample application that responds to the deviceready event.

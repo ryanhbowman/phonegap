@@ -50,7 +50,7 @@ var app = {
 };
 
 $(function  () {
-  var shoesData = [{name:"Nike", price:199.00 }, {name:"Loafers", price:59.00 }, {name:"Wing Tip", price:259.00 }];
+  var shoesData = [{"id":5,"description":"Pioneer Artists","url":"http://ryanrails.herokuapp.com/pins/5.json"},{"id":4,"description":"Photo man","url":"http://ryanrails.herokuapp.com/pins/4.json"},{"id":3,"description":"Bake agai","url":"http://ryanrails.herokuapp.com/pins/3.json"},{"id":1,"description":"Test pin on live server","url":"http://ryanrails.herokuapp.com/pins/1.json"}];
    //Get the HTML from the template   in the script tag
     var theTemplateScript = $("#shoe-template").html(); 
 
